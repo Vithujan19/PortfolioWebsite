@@ -1,0 +1,22 @@
+.FootContainer{
+    background: #000;
+    height: 6rem;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+.FootPara{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* top:1.5rem;
+    left:8rem;
+    position:relative; */
+}
+
+.FootSpan{
+    padding-top: 10px;
+    /* left: 10rem;
+    position:relative; */
+}
