@@ -16,24 +16,22 @@ function Article() {
                             <li className="wow fadeInUp" data-wow-duration="1.2s">
                                 <div className="inner_list">
                                     <div className="image_wrap">
-                                        <img className="small" src="img/blog/500x350.jpg" alt="" />
-                                        <img className="big" src="img/blog/1170x450.jpg" alt="" />
                                         <div className="news_image" data-url="img/blog/thanks.jpg"></div>
-                                        <a className="link_news" href="https://www.whatyouhave.ml/2020/07/thanks-to-corona.html"></a>
+                                        <a className="link_news" href="https://metaservices1.blogspot.com/2020/07/thanks-to-corona.html"></a>
                                     </div>
                                     <div className="definitions_wrap">
                                         <div className="date_wrap">
-                                            <p>July 01, 2020 <a href="https://www.whatyouhave.ml/2020/07/thanks-to-corona.html">Poem</a></p>
+                                            <p>July 01, 2020 <a href="https://metaservices1.blogspot.com/2020/07/thanks-to-corona.html">Poem</a></p>
                                         </div>
                                         <div className="title_holder">
-                                            <h3><a href="https://www.whatyouhave.ml/2020/07/thanks-to-corona.html">Thanks to Corona</a></h3>
+                                            <h3><a href="https://metaservices1.blogspot.com/2020/07/thanks-to-corona.html">Thanks to Corona</a></h3>
                                         </div>
                                         <div className="definition">
                                             <p>If you are reading this, you probably feel the real situation and the depth of the poem. Remember the traditions what we have lost nowadays...</p>
                                         </div>
 
                                         <div className="read_more1">
-                                            <a href="https://www.whatyouhave.ml/2020/07/thanks-to-corona.html"><span>Read More</span></a>
+                                            <a href="https://metaservices1.blogspot.com/2020/07/thanks-to-corona.html"><span>Read More</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -41,24 +39,22 @@ function Article() {
                             <li className="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
                                 <div className="inner_list">
                                     <div className="image_wrap">
-                                        <img className="small" src="img/blog/500x350.jpg" alt="" />
-                                        <img className="big" src="img/blog/1170x450.jpg" alt="" />
                                         <div className="news_image" data-url="img/blog/kitten.jpg"></div>
                                         <a className="link_news" href="https://www.whatyouhave.ml/2020/06/the-kitten.html"></a>
                                     </div>
                                     <div className="definitions_wrap">
                                         <div className="date_wrap">
-                                            <p>June 30, 2020 <a href="https://www.whatyouhave.ml/2020/06/the-kitten.html">Short Story</a></p>
+                                            <p>June 30, 2020 <a href="https://metaservices1.blogspot.com/2020/06/the-kitten.html">Short Story</a></p>
                                         </div>
                                         <div className="title_holder">
-                                            <h3><a href="https://www.whatyouhave.ml/2020/06/the-kitten.html">The Kitten</a></h3>
+                                            <h3><a href="https://metaservices1.blogspot.com/2020/06/the-kitten.html">The Kitten</a></h3>
                                         </div>
                                         <div className="definition">
                                             <p>It is a Short story but the real story. If you are reading this, you probably feel the sympathy of kitten. Real deep love of Mother and a kiiten speaked in the short story....</p>
                                         </div>
 
                                         <div className="read_more1">
-                                            <a href="https://www.whatyouhave.ml/2020/06/the-kitten.html"><span>Read More</span></a>
+                                            <a href="https://metaservices1.blogspot.com/2020/06/the-kitten.html"><span>Read More</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -66,8 +62,6 @@ function Article() {
                             <li className="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
                                 <div className="inner_list">
                                     <div className="image_wrap">
-                                        <img className="small" src="img/blog/500x350.jpg" alt="" />
-                                        <img className="big" src="img/blog/1170x450.jpg" alt="" />
                                         <div className="news_image" data-url="img/blog/artic.jpg"></div>
                                         <a className="link_news" href="index.html"></a>
                                     </div>

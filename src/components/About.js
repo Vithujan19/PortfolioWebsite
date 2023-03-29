@@ -8,51 +8,78 @@ import { Container, Row, Col } from "react-bootstrap";
 class About extends Component {
     render() {
         return (
-            <Row class="arlo_tm_section relative" id="about">
-                <div class="arlo_tm_about_wrapper_all">
-                    <div class="container">
-                        <div class="arlo_tm_title_holder">
-                            <h3>Welcome</h3>
+            <Row className="arlo_tm_section relative" id="experience">
+                <div className="arlo_tm_about_wrapper_all">
+                    <div className="container">
+                        <div className="arlo_tm_title_holder">
+                            <h3>Experience</h3>
                             <span>Learn more about me</span>
                         </div>
-                        <div class="arlo_tm_about_wrap">
-                            <div class="author_wrap">
-                                <div class="leftbox">
-                                    <div class="about_image_wrap parallax" data-relative-input="true">
-                                        <div id="inner1">
-                                            <div class="demo-img">
-                                                <div class="demo-overlay">
-                                                    <svg src="https://lh3.googleusercontent.com/lHxIshJ8pKAZR-ltc9HMJnF_3UpwtvYuqJw3vZ4P79Zm-XhBIbcQdZJHLUukSvBRKEH9g-_7IikjlI5Xdmu4MsGsHWg" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-                                <div class="rightbox">
-                                    <div class="arlo_tm_mini_title_holder">
-                                        <h4 style={{ color: "#EEAB61" }}>I am a
-                                        <div style={{ padding: 0, textAlign: "left", color: "#ED69BD" }}>
-                                                <Type />
-                                            </div>
-                                        </h4>
+                        <div class="main">
+                            <h1 class="center">Professional & Educational Qualifications</h1>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="timeline-content">
+                                        <h3>DevOps Engineer Intern</h3>
+                                        <p>September 2021 - July 2022<br/>
+                                        Omobio (pvt) Ltd</p>
+                                        <p>
+                                            <ul>
+                                                <li>Worked under micro-service architecture</li>
+                                                <li>Developed and maintained automated CI/CD Pipeline for code deployment using Jenkins</li>
+                                                <li>Developed and maintained automated CI/CD Pipeline for code deployment using Jenkins</li>
+                                                <li>Built and deployed Docker containers for implementing Microservice Architecture</li>
+                                                <li>Orchestrated Docker container cluster using Kubernetes(EKS)</li>
+                                                <li>Experienced in deploying application in AWS</li>
+                                                <li>Developed frontend application using React JS</li>
+                                                <li>Source code management in GitHub & GitLab</li>
+                                                <li>Worked under agile practice in scrum teams and experience in JIRA</li>
+                                            </ul>
+                                        </p>
+                                        <button>Learn More</button>
                                     </div>
-                                    <div class="definition">
-                                        <p>Hi! My name is Sundaramoorthy Vithujan. I am a Undergraduate Student at University of Moratuwa, Faculty of Information Technology and have been working hard to improve my IT skills and my knowledge. Currently I am working on a web-App & Mobile App university projects under TechWire Software company as well as I do my own projects. I have started to learn Ethical Hacking/Hacking & Patching and I have interested to join in cyber based researches too. In addition to that, I have an experience in Atmega based Projects(Smart Compost Bin - Hardware Project). I have uploaded my project in the  \"Portfolio\" section. You can see them. </p>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="timeline-content">
+                                        <h3>B.SC. (HONS) INFORMATION TECHNOLOGY</h3>
+                                        <p>University of Moratuwa<br/>
+                                        2018 - 2023
+                                        </p>
+                                        <p>
+                                        FINAL YEAR RESEARCH @UOM
+Research Project regarding enhancement of the primary school students’ English knowledge using computer vision and NLP,
+Role: Unpaired Image captioning using unsupervised learning.
+                                        </p>
+                                        <p>
+                                        SECOND YEAR PROJECT @UOM
+                                        Receipt and Expense Management System,
+Technologies Used : React JS, Node.js, MongoDB, Express.js, Flutter,
+Role: Front-end and Back-end development for Expense and Reimbursement.
+                                        </p>
+                                        <p>FIRST YEAR HARDWARE PROJECT @UOM
+Smart Compost Bin, Technologies Used : Atmel studio, C language, DHT11, MQ5, Ultrasonic sensor, Motor controller,
+Role: Handled DHT11 sensor and Motor controller.</p>
+                                        <button>Learn More</button>
                                     </div>
-                                    <div class="about_short_contact_wrap">
-
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="timeline-content">
+                                        <h3>G.C.E ADVANCED LEVEL</h3>
+                                        <p>
+Hartley College, Point Pedro. <br/>
+Biological Science - 2A, B <br/>2008 - 2017
+                                        </p>
+                                        <p>
+                                        Provincial Level Chess Campion (2008 - 2017)<br/>
+National Level School Team Chess Captain (2012)<br/>
+District Champion in High Jump (2010)<br/>
+Prefect at School - 2015 - 2017 <br/>School Athletic Captain - 2015
+                                        </p>
+                                        <button>Learn More</button>
                                     </div>
-                                    <div class="buttons_wrap">
-                                        <ul>
-                                            <li>
-                                                <a target="_blank" href="https://storage.turbo360.co/vithujan_portfolio-ccwuvn/Vithujan%20New%20CV%20Update.pdf"><span>Download Resume</span></a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@ class Contact extends React.Component {
                       <li><p><label>Address:</label><span><a href="https://www.google.com/maps/@9.8132371,80.2288592,3a,75y,324.26h,78.35t/data=!3m6!1e1!3m4!1svTstvYkfqgk7BNzjbvuPgA!2e0!7i13312!8i6656">Saraiyady, Puloly South, Puloly, Sri Lanka</a></span></p></li>
                       <li><p><label>Email:</label><span><a href="mailto:vithusundar@gmail.com">vithusundar@gmail.com</a></span></p></li>
                       <li><p><label>Phone:</label><span><a href="tel:+94772789765">+94772789765</a></span></p></li>
-                      <li><p><label>Website:</label><span><a href="https://www.whatyouhave.ml/">www.whatyouhave.ml</a></span></p></li>
+                      <li><p><label>Medium:</label><span><a href="https://medium.com/@vithujan">Blog Medium.com</a></span></p></li>
                     </ul>
                   </div>
                 </div>

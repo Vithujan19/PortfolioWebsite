@@ -25,6 +25,7 @@ body{
 	content: "";
 	display: table;
 	clear: both;
+	margin-top: 80px;
   }
   
   .socialColumn{
@@ -170,9 +171,22 @@ body{
 	width: 33px;
 	height: auto;
   }
+
+  .mediumimg{
+	margin-left: 3px;
+	width: 27px;
+	height: auto;
+	transition: all 0.4s ease 0s !important;
+  }
+
+  .mediumimg:hover{
+	margin-left: 3px;
+	width: 33px;
+	height: auto;
+  }
   
   .social{
-	padding: 90px 0 0 15px;
+	padding: 50px 0 0 15px;
 	position: fixed;
 	transition: all 0.4s ease 0s !important;
   }
@@ -339,6 +353,20 @@ svg{
 	height: auto;
 	clear: both;
 	float: left;
+	margin: 40px 0 60px 0;
+	background-color: #fff;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.arlo_tm_skills_wrapper_all{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin: 40px 0 40px 0;
 	background-color: #fff;
 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -360,7 +388,7 @@ svg{
 }
 .arlo_tm_main_title_holder.about{
 	text-align: left;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	padding: 0px;
 }
 .arlo_tm_main_title_holder h3{
@@ -755,7 +783,7 @@ svg{
 /* .................................................................... */
 
 .tech-icons {
-    font-size: 4.5em !important;
+    font-size: 4em !important;
     margin: 15px 0 60px 0 !important;
     opacity: 0.93 !important;
     border: 1.7px solid rgba(238, 171, 97, 1) !important;
@@ -793,8 +821,8 @@ svg{
 	height: auto;
 	clear: both;
 	float: left;
+	margin: 40px 0 60px 0;
 	background-color: #fff;
-	margin-bottom: 110px;
 	text-align: left;
 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -894,7 +922,7 @@ svg{
 	height: auto;
 	clear: both;
 	float: left;
-
+	margin: 40px 0 50px 0;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1345,7 +1373,6 @@ svg{
 	clear: both;
 	float: left;
 	background-color: #fff;
-
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -1990,4 +2017,126 @@ svg{
 	.arlo_tm_portfolio_list{margin: 0px;}
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
+}
+
+/* About.js file css for vertical line   */
+@import url("https://fonts.googleapis.com/css?family=Amaranth|Source+Sans+Pro&display=swap");
+
+body ul {
+  margin: 0;
+}
+body .center {
+  margin: 0 auto;
+  text-align: center;
+}
+body img {
+  width: 100%;
+}
+
+.main {
+  padding: 2em 0;
+}
+.main h1 {
+  color: #61d4d7;
+  font-family: "Amaranth", sans-serif;
+  line-height: 1em;
+  margin-bottom: 2rem;
+}
+.main h3 {
+  color: #ffffff;
+  font-family: "Amaranth", sans-serif;
+}
+.main p {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+.main .timeline {
+  position: relative;
+}
+.main .timeline:before {
+  background: #f1efef;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 4px;
+}
+.main .timeline .timeline-item {
+  clear: both;
+  list-style-type: none;
+  padding: 0 30px;
+  position: relative;
+}
+.main .timeline .timeline-item:before {
+  background: #8ed6d6;
+  border-radius: 50%;
+  content: "";
+  height: 20px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 20px;
+}
+.main .timeline .timeline-item .timeline-content {
+  background: #8ed6d6;
+  border: 2px solid #8ed6d6;
+  padding: 1em;
+  width: 46%;
+}
+.main .timeline .timeline-item .timeline-content h3,
+.main .timeline .timeline-item .timeline-content p,
+.main .timeline .timeline-item .timeline-content div,
+.main .timeline .timeline-item .timeline-content button {
+  margin: 20px;
+}
+.main .timeline .timeline-item:nth-child(even) .timeline-content {
+  float: right;
+}
+.main .timeline .timeline-item:nth-child(2):before {
+  background: #bea4ec;
+}
+.main .timeline .timeline-item:nth-child(2) .timeline-content {
+  background: #bea4ec;
+  border: 2px solid #bea4ec;
+}
+.main .timeline .timeline-item:nth-child(3):before {
+  background: #aec785;
+}
+.main .timeline .timeline-item:nth-child(3) .timeline-content {
+  background: #aec785;
+  border: 2px solid #aec785;
+}
+.main .timeline button {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #656565;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.main .timeline button:hover {
+  background: #ffffff;
+  border: 2px solid #656565;
+}
+@media screen and (max-width: 968px) {
+  .main .timeline {
+    margin: 0 0 0 10px;
+  }
+  .main .timeline:before {
+    left: 0px;
+  }
+  .main .timeline .timeline-item:before {
+    left: 0;
+  }
+  .main .timeline .timeline-item .timeline-content {
+    margin: 2em 0;
+    width: 100%;
+  }
+  .main .timeline .timeline-item:nth-child(even) .timeline-content {
+    float: initial;
+  }
 }

@@ -8,7 +8,7 @@ function Skills() {
     return (
 
         <Row class="arlo_tm_section relative" id="skills">
-            <div class="arlo_tm_about_wrapper_all">
+            <div class="arlo_tm_skills_wrapper_all">
                 <div class="container">
                     <div className="arlo_tm_title_holder">
                         <h3>Professional Skills</h3>
@@ -16,28 +16,55 @@ function Skills() {
                     </div>
 
                     <Row style={{ marginBottom: "100px" }}>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
+                            <Techstack iconName='devicon-docker-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
+                            <Techstack iconName='devicon-kubernetes-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
+                            <Techstack iconName='devicon-amazonwebservices-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
+                            <Techstack iconName='devicon-jenkins-plain' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-java-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-flutter-plain' />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-c-plain' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-nodejs-plain-wordmark ' />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-javascript-plain ' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-express-original-wordmark' />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-python-plain-wordmark ' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-react-original-wordmark' />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-mongodb-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-git-plain-wordmark' />
                         </Col>
-                        <Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-mysql-plain' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
+                            <Techstack iconName='devicon-wordpress-plain-wordmark' />
+                        </Col>
+                        <Col lg="2" md="4" xs="6">
                             <Techstack iconName='devicon-premierepro-plain' />
                         </Col>
                     </Row>
